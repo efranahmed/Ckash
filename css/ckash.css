@@ -1,0 +1,63 @@
+body {
+    background-color: #1AEBB6;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#ckash .logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+#ckash .logo img {
+    margin: 0 auto;
+    height: 110px;
+}
+
+#ckash .display .item {
+    padding: 40px 0;
+    background-color: #F9C33B;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#ckash .display h2 {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#ckash .display h2:last-child {
+    margin-top: 20px;
+}
+
+
+/* balance input start */
+
+
+#ckash .balance_input .item {
+    margin-top: 40px;
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#ckash .balance_input h2 {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#ckash .balance_input button{
+background-color:#1AEBB6;
+color: #000000;
+border: none;
+}
+#ckash .balance_input button:hover{
+background-color: #F9C33B;
+}

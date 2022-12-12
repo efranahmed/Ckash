@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/ckash.css" />
+  </head>
+
+  <body>
+    <section id="ckash">
+      <div class="container">
+        <div class="logo">
+          <div class="img">
+            <img src="images/logo.png" alt="" />
+          </div>
+        </div>
+        <!-- balcne display start -->
+        <div class="display">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="item">
+                <h2>total balance</h2>
+                <h2>$ <span id="total_balance">500</span></h2>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="item">
+                <h2>Total cash out</h2>
+                <h2>$ <span id="total_cashout">00</span></h2>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="item">
+                <h2>Total send money</h2>
+                <h2>$ <span id="send_money">00</span></h2>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="item">
+                <h2>mobile recharge</h2>
+                <h2>$ <span id="mobile_recharge">00</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- balcne display end -->
+        <!-- balcne input start -->
+        <div class="balance_input">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="item">
+                <h2>cash in</h2>
+                <div class="form-group mt-3">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="cash_in"
+                    placeholder="cash in amount"
+                  />
+                </div>
+                <button
+                  id="cashin_button"
+                  type="submit "
+                  class="btn btn-primary w-100 mt-4"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="item">
+                <h2>cash out</h2>
+                <div class="form-group mt-3">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="cash_out_input"
+                    placeholder="cash out amount"
+                  />
+                </div>
+                <button
+                  id="cash_out"
+                  type="submit "
+                  class="btn btn-primary w-100 mt-4"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="item">
+                <h2>send money</h2>
+                <div class="form-group mt-3">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="sendmoney_input"
+                    placeholder="send money amount"
+                  />
+                </div>
+                <button
+                  id="sendmoney_button"
+                  type="submit "
+                  class="btn btn-primary w-100 mt-4"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="item">
+                <h2>recharge</h2>
+                <div class="form-group mt-3">
+                  <input
+                    id="mobile_input"
+                    type="number"
+                    class="form-control"
+                    placeholder="recharge amount"
+                  />
+                </div>
+                <button
+                  id="mobile_rechargebutton"
+                  type="submit "
+                  class="btn btn-primary w-100 mt-4"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- balcne input end -->
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/ckash.js"></script>
+  </body>
+</html>
